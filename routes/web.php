@@ -21,3 +21,8 @@ use App\Http\Controllers\DeliveryController;
 
 Route::get('/delivery', [DeliveryController::class, 'calculate']);
 
+
+
+use App\Http\Controllers\StrategyController;
+
+Route::get('/strategy', [StrategyController::class, 'index']);
