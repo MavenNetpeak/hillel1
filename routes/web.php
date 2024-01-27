@@ -26,3 +26,8 @@ Route::get('/delivery', [DeliveryController::class, 'calculate']);
 use App\Http\Controllers\StrategyController;
 
 Route::get('/strategy', [StrategyController::class, 'index']);
+
+
+use App\Http\Controllers\HomeWorkSolidController;
+
+Route::get('/homeWorkSolid', [HomeWorkSolidController::class, 'index']);
